@@ -1,19 +1,19 @@
 # locators/search_locators.py
 
 class KaiSearchLocators:
-    ORIGINATION_FIELD = ("id", "origination-flexdatalist")
-    DESTINATION_FIELD = ("id", "destination-flexdatalist")
-    DEPARTURE_DATE_FIELD = ("id", "departure_dateh")
-    SUBMIT_BUTTON = ("id", "submit")
+    origination_field = ("id", "origination-flexdatalist")
+    destination_field = ("id", "destination-flexdatalist")
+    departure_date_field = ("id", "departure_dateh")
+    submit_button = ("id", "submit")
 
-    DATEPICKER_WRAPPER = ("id", "ui-datepicker-div")
-    HOLIDAY_DATE = ("xpath", '//td[@class=" holiday"]')
-    AVAILABLE_DATE = ("xpath", 
+    datepicker_wrapper = ("id", "ui-datepicker-div")
+    holiday_date = ("xpath", '//td[@class=" holiday"]')
+    available_date = ("xpath", 
         '//td[@data-handler="selectDay" and not(contains(@class, "ui-datepicker-unselectable"))]')
 
-    SCHEDULE_LIST = ("class name", "schedule-list")
-    ALERT_DANGER = ("xpath", "//div[contains(@class, 'alert-danger')]")
-    EMPTY_SCHEDULE = ("class name", "empty-schedule")
-    LOADING_ELEMENT = ("id", "loading")
+    schedule_list = ("class name", "schedule-list")
+    alert_danger = ("xpath", "//div[contains(@class, 'alert-danger')]")
+    empty_schedule = ("class name", "empty-schedule")
+    loading_element = ("id", "loading")
     
-    STATION_RESULT = ("class name", "flexdatalist-results")
+    station_result = ("class name", "flexdatalist-results")
