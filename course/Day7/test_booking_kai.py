@@ -1,6 +1,6 @@
 import pytest
 from selenium.webdriver.common.by import By
-from automation import setup_driver, fill_station_field, select_date, search_tickets
+from course.Day7.booking_kai import setup_driver, fill_station_field, select_date, search_tickets
 
 @pytest.fixture(scope="module")
 def driver():
