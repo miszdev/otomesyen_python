@@ -1,0 +1,18 @@
+---- Page Object Model
+
+workspace/
+├── data/
+├── locators/
+│   └── inventory.py
+│   └── login.py (file)
+├── pages/
+│   └── inventory.py
+│   └── login.py (file)
+├── reports/
+│   └── report.html
+├── tests/
+│   └── conftest.py
+│   └── test_login.py (file)
+├── .env
+├── .gitignore
+└── requirements.txt

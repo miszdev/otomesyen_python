@@ -1,0 +1,6 @@
+selenium
+pytest-html
+pytest
+pytest-xdist
+pyclean
+python-dotenv

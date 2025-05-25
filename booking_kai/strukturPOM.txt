@@ -1,0 +1,18 @@
+---- Page Object Model
+
+workspace/
+├── data/
+├── locators/
+│   └── inventory.py
+│   └── search.py
+├── pages/
+│   └── inventory.py
+│   └── search.py
+├── reports/
+│   └── report.html
+├── tests/
+│   └── conftest.py
+│   └── test_search_kai.py
+├── .env
+├── .gitignore
+└── requirements.txt
